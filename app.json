@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "appliacion_pruebasv",
+    "slug": "appliacion_pruebasv",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon":  "./assets/imagenes/gatito.png",
+    "resizeMode": "contain",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/imagenes/gatito.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imagenes/gatito.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
