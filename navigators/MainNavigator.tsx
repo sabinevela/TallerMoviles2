@@ -6,7 +6,10 @@ import Pagina1Screen from "../screens/Pagina1Screen";
 import Pagina2Screen from "../screens/Pagina2Screen";
 import Pagina3Screen from "../screens/Pagina3Screen";
 import Calculadora from "../screens/Calculadora";
-import Pagina5Screen from "../screens/Pagina5Screen";
+import AplicacionTemperatura from "../screens/AplicacionTemperatura";
+import Pagina4Screen from "../screens/Pagina4Screen";
+import API from "../screens/API";
+import API2 from "../screens/API2";
 
 const Stack=createStackNavigator();
 
@@ -27,12 +30,14 @@ function MyDrawer(){
             <Drawer.Screen name="" component={Pagina1Screen}/>
             <Drawer.Screen name="" component={Pagina2Screen}/>
             <Drawer.Screen name="" component={Pagina3Screen}/>
+            <Drawer.Screen name="" component={Pagina4Screen}/>
             <Drawer.Screen name="" component={Calculadora}/>
-            <Drawer.Screen name="" component={Pagina5Screen}/>
+            <Drawer.Screen name="" component={AplicacionTemperatura}/>
+            <Drawer.Screen name="" component={API}/>
+            <Drawer.Screen name="" component={API2}/>
         </Drawer.Navigator>            
     )
 }
-
 export default function Navigator(){
     return(
 <NavigationContainer>
