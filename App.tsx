@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-gesture-handler'; 
+import React from 'react'; 
+import MainNavigator from './navigators/MainNavigator'; 
+import Pagina2Screen from './screens/Pagina2Screen';
+import Pagina3Screen from './screens/Pagina3Screen';
+import Pagina4Screen from './screens/Pagina4Screen';
+import Pagina1Screen from './screens/Pagina1Screen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <MainNavigator />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
